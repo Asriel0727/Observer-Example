@@ -16,8 +16,9 @@ Subject {
 }
 ```
 
-``` C#
+
 * 某某主題類別
+``` C#
 Subject實例{  //繼承Subject
 
     override
@@ -27,8 +28,8 @@ Subject實例{  //繼承Subject
 }
 ```
 
-``` C#
 * 觀察者類別
+``` C#
 Observer{
 
     被通知之後的更新方法
@@ -38,8 +39,8 @@ Observer{
 }
 ```
 
-``` C#
 * 某某觀察者類別
+``` C#
 Observer實例{    //繼承Observer
 
     override<更新方法裡面直接取Subject裡的方法>
